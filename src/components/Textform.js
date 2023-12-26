@@ -107,8 +107,6 @@ return(
 
     <p> {text.length>0 ? text.trim().split(" ").length : 0} Words and {text.length} Characters typed</p>
 
-    <p> {text.length === 0?"0":0.008 * text.split(" ").length} minutes required to read</p>
-
     <h2>Preview</h2>
 
     <p>{text.length>0?text:"Nothing to preview!"}</p>
